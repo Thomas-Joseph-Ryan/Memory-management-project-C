@@ -1,0 +1,18 @@
+forward x
+backward x
+type x
+set x 1 2 3
+forward x
+backward x
+type x
+set y x
+set z y x
+forward x
+forward y
+forward z
+backward x
+backward y
+backward z
+type x
+type y
+type z

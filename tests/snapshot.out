@@ -1,0 +1,76 @@
+> no such snapshot
+
+> no such snapshot
+
+> no such snapshot
+
+> ok
+
+> ok
+
+> ok
+
+> c [b]
+b [a]
+a [1 2 3]
+
+> saved as snapshot 1
+
+> ok
+
+> ok
+
+> d [c a]
+c [5 6 7]
+b [a]
+a [1 2 3]
+
+> saved as snapshot 2
+
+> ok
+
+> c [b]
+b [a]
+a [1 2 3]
+
+> ok
+
+> d [c a]
+c [5 6 7]
+b [a]
+a [1 2 3]
+
+> ok
+
+> no such snapshot
+
+> d [c a]
+c [5 6 7]
+b [a]
+a [1 2 3]
+
+> ok
+
+> saved as snapshot 3
+
+> 3
+1
+
+> ok
+
+> 1
+
+> no such snapshot
+
+> c [b]
+b [a]
+a [1 2 3]
+
+> b
+
+> c []
+b [a]
+a [1 2 3]
+
+> 
+bye

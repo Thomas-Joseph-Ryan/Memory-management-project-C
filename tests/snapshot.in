@@ -1,0 +1,28 @@
+checkout 1
+rollback 1
+drop 1
+set a 1 2 3
+set b a
+set c b
+list entries
+snapshot
+set c 5 6 7
+set d c a
+list entries
+snapshot
+checkout 1
+list entries
+checkout 2
+list entries
+drop 2
+checkout 2
+list entries
+set g 8 9
+snapshot
+list snapshots
+rollback 1
+list snapshots
+checkout 3
+list entries
+pop c
+list entries

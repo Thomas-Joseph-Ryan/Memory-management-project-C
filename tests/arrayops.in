@@ -1,0 +1,11 @@
+set a 1 2 3 4 5
+rev a
+get a
+append a 5 5 6 7 6 6 5
+get a
+uniq a
+get a
+sort a
+get a
+uniq a
+get a

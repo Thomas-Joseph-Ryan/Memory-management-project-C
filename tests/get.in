@@ -1,0 +1,6 @@
+set a 1 2 3
+get a
+get A
+get 1b
+set b a 4 5 6
+get b

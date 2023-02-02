@@ -1,0 +1,18 @@
+push a 1
+append a 1
+pick a 1
+pluck a 1
+pop a
+set c 1
+get c
+push c 2 3
+get c
+append c 0 -1
+get c
+pick c 2
+get c
+pluck c 2
+get c
+pop c
+get c
+pluck c 0

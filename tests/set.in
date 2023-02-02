@@ -1,0 +1,13 @@
+Set a 1 2 3
+set b 345 3 4 5
+SET c 1 
+set thejustrightkey 1
+set keythatistoolong 1
+set 1 1
+set a 2 3 4
+set d d
+set e a
+set f 1a 1 2 3
+set f a!
+set g h
+set h ! +

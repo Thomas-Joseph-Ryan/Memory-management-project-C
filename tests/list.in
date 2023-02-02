@@ -1,0 +1,15 @@
+list keys
+list entries
+set a 1
+list keys
+set b 2
+list keys
+list entries
+set A 3
+list keys
+list entries
+list snapshots
+snapshot
+set c a
+snapshot
+list snapshots
